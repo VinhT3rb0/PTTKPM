@@ -1,0 +1,192 @@
+.Navbar {
+    color: white;
+    /* background-color: rgb(81 89 163 / 30%); */
+    cursor: pointer;
+    background-image: url('../../img/bgRouter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20% 90%;
+}
+
+.Navbar_header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    line-height: 50px;
+
+}
+
+.local_1 p:hover{
+    color: #1ba0e2;
+}
+
+
+
+.Navbar_mid {
+    border-top: 1px solid #5b5a5a;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Reverse {
+    transform: scaleX(-1);
+    font-size: 20px;
+}
+
+.Dropdown_Tour2{
+    transition: opacity 0.3s ease-in-out;
+}
+
+.Dropdown_Tour2:hover .dropdown,
+.dropdown:hover {
+    display: flex;
+    opacity: 1;
+}
+
+.dropdown {
+    padding: 5px 10px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    width: 915px;
+    display: none;
+    text-align: left;
+    justify-content: space-around;
+    top: 42px;
+    left: -6px;
+    border-radius: 5px;
+    height: 120px;
+    transition: height 1s ease-in-out;
+}
+
+.Dropdown_Tour {
+    font-size: 16px;
+    z-index: 99;
+}
+
+.Img_Logo {
+    width: 210px;
+}
+
+.Img_Logo img {
+    max-width: 100%;
+}
+
+.Reverse {
+    transform: scaleX(-1);
+}
+
+.Form_Price {
+    max-width: 254px;
+    height: 128px;
+    overflow: auto;
+}
+
+.Form_Price::-webkit-scrollbar {
+    width: 8px;
+}
+
+.Form_Price::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.Form_Price::-webkit-scrollbar-thumb {
+    background-color: #1ba0e2;
+    border-radius: 6px;
+}
+
+.Form_Price::-webkit-scrollbar-thumb:hover {
+    background-color: #1ba0e2;
+}
+
+.FormBorder{
+    border: 2px solid #1ba0e2;
+    padding: 15px;
+    border-radius: 10px;
+    background: ghostwhite;
+    margin-top: 10px;
+}
+
+
+.LogOut{
+    font-size: 15px;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.title {
+    background: #dd4f4f;
+    background: -webkit-linear-gradient(57deg, #dd4f4f 15%, #12b4ea 100%);
+    background: linear-gradient(57deg, #dd4f4f 15%, #12b4ea 100%);
+    padding: 30px 50px;
+    margin: 0 -35px;
+    height: 200px;
+}
+.title h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 45px;
+    line-height: 140px;
+}
+.aboutName {
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.aboutDes {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 30px;
+}
+.aboutDes {
+    color: #8d8d94;
+}
+.aboutSd {
+    margin-top: 30px;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+}
+.aboutItem {
+    width: 33.333%;
+}
+.aboutImg {
+    width: 300px;
+}
+.aboutImg:hover {
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+}
+.aboutText {
+    font-size: 20px;
+    color: #8d8d94;
+}
+.aboutMission {
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://i.pinimg.com/564x/44/c0/e0/44c0e0d4babe32401d97a0ebbb716f90.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.missionTitle {
+    text-align: center;
+    color: #fff;
+    margin-top: 70px;
+    text-transform: uppercase;
+}
+.missionDes {
+    color: #fff;
+    font-size: 20px;
+    margin:20px 500px;
+}

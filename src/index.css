@@ -1,0 +1,264 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ant-carousel .css-dev-only-do-not-override-1ck3jst {
+  border: none !important;
+
+}
+
+.ant-input-affix-wrapper,
+.ant-input-group-addon,
+.ant-input,
+.ant-input-affix-wrapper-focused {
+  background-color: transparent !important;
+  border: none;
+}
+
+.ant-input-wrapper {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.ant-input-affix-wrapper {
+  height: 38px !important;
+}
+
+.ant-input {
+  color: white;
+  font-size: 15px !important;
+}
+
+::placeholder {
+  color: white !important;
+}
+
+.ant-btn {
+  color: white !important;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+}
+
+.ant-dropdown-open {
+  /* color: red !important; */
+}
+
+ul>a {
+  text-decoration: none;
+  color: white;
+  font-style: 16px;
+}
+
+#basic_username,
+#basic_user_email {
+  border: 2px solid gray;
+  color: black;
+  width: 350px;
+}
+
+#basic_user_introduction {
+  width: 854px !important;
+  border: 2px solid gray;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.ant-col {
+  flex: none;
+}
+
+label[title="Email"] {
+  padding-left: 80px;
+  font-weight: bold;
+  font-size: 18px !important;
+  color: black !important;
+}
+
+label[title="Họ và tên"] {
+  font-weight: bold;
+  font-size: 18px !important;
+  color: black !important;
+}
+
+.selected {
+  color: #1ba0e2;
+}
+
+label[title="Mô tả"] {
+  padding-right: 32px;
+  font-weight: bold;
+  font-size: 18px !important;
+  color: black !important;
+}
+
+button[title="ButtonSubmit"]:hover {
+  background-color: red !important;
+  color: black !important;
+}
+
+.css-dev-only-do-not-override-1ck3jst {
+  margin-bottom: 0 !important;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.ant-picker {
+  background-color: rgb(176, 167, 167);
+}
+
+/* .ant-form-item-control-input{
+  border: 1px solid rgb(76, 67, 67);
+  border-radius: 10px;
+} */
+
+input[placeholder="Họ và tên"],
+input[placeholder="Số điện thoại"],
+input[placeholder="Email"],
+textarea[placeholder="Nội dung"],
+button[type="Gửi"] {
+  border: 1px solid rgb(76, 67, 67);
+  border-radius: 10px;
+}
+
+.ant-form-item-control-input-content input {
+  color: black;
+
+}
+
+.ant-modal-footer {
+  display: none;
+}
+
+.ant-form-item-label {
+  margin: 10px;
+}
+
+/* .ant-form-item-label label{
+   width: 120px;
+   color: #1ba0e2 !important;
+   font-size: 16px !important;
+} */
+
+label[title="Họ tên"],
+label[title="Số điện thoại"],
+label[title="Email:"],
+label[title="Nội dung"] {
+  width: 120px;
+  color: #1ba0e2 !important;
+  font-size: 16px !important;
+}
+
+input[placeholder="Họ và Tên "]::placeholder {
+  font-size: 14px;
+  color: gray !important;
+}
+
+input[placeholder="Số điện thoại "]::placeholder {
+  font-size: 14px;
+  color: gray !important;
+}
+
+input[placeholder="Email "]::placeholder {
+  color: gray !important;
+  font-size: 14px !important;
+  
+}
+
+input[placeholder="Mã khuyến mại ..."]::placeholder {
+  color: gray !important;
+  font-size: 14px !important;
+  
+}
+input[placeholder="Email "]{
+  border-radius: 8px !important;
+  margin: 10px 0;
+  color: black !important;
+  font-size: 20px !important;
+  height: 50px !important;
+  width: 350px !important;
+  padding: 15px !important;
+}
+
+input[placeholder="Họ và Tên "]{
+  margin: 10px 0;
+  border-radius: 8px !important;
+  color: black !important;
+  font-size: 20px !important;
+  height: 50px !important;
+  width: 350px !important;
+  padding: 15px !important;
+}
+
+input[placeholder="Số điện thoại "]{
+  margin: 10px 0;
+  border-radius: 8px !important;
+  color: black !important;
+  font-size: 20px !important;
+  height: 50px !important;
+  width: 350px !important;
+  padding: 15px !important;
+}
+
+input[placeholder="Mã khuyến mại ..."]{
+  margin: 10px 0;
+  border-radius: 8px !important;
+  color: black !important;
+  font-size: 20px !important;
+  height: 50px !important;
+  width: 350px !important;
+  padding: 15px !important;
+}
+
+#City, #District, #Ward, #Promotion{
+  margin: 3px 0;
+  border-radius: 8px !important;
+  color: black !important;
+  font-size: 14px !important;
+  height: 50px !important;
+  width: 350px !important;
+}
+
+#Note{
+  margin: 3px 0;
+  padding: 15px !important;
+  border-radius: 8px !important;
+  color: black !important;
+  font-size: 14px !important;
+  height: 55px !important;
+  width: 350px !important;
+}
+
+
+input.red-placeholder::placeholder {
+  color: rgb(249, 192, 192) !important;
+}
+
+.ant-modal-title,
+.ant-modal-content {
+  background-color: #b8d0dc !important;
+}
+
+.ant-modal-title {
+  font-size: 20px !important;
+}

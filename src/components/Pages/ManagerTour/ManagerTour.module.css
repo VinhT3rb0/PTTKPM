@@ -1,0 +1,41 @@
+.Container {
+    background-color: #7ad3ff;
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+    width: 700px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    line-height: 30px;
+}
+
+/* .Parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} */
+
+.Parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.CutText {
+    width: 310px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.AddTour {
+    line-height: 35px;
+    padding: 5px 10px;
+    border: 2px solid #b5b5b5;
+    background-color: #6cceff;
+    border-radius: 11px;
+    margin-right: 25px;
+    cursor: pointer;
+}

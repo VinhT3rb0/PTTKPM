@@ -1,0 +1,273 @@
+.Navbar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: rgb(81 89 163 / 30%);
+    cursor: pointer;
+}
+
+.Navbar_header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    line-height: 50px;
+
+}
+
+.Navbar_mid {
+    border-top: 1px solid #5b5a5a;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Reverse {
+    transform: scaleX(-1);
+    font-size: 20px;
+}
+
+
+
+.Dropdown_Tour2:hover .dropdown,
+.dropdown:hover {
+    display: flex;
+
+}
+
+
+.dropdown {
+    padding: 5px 10px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    width: 915px;
+    display: none;
+    text-align: left;
+    justify-content: space-around;
+    top: 42px;
+    left: -6px;
+    border-radius: 5px;
+    height: 120px;
+    transition: height 1s ease-in-out;
+}
+
+.Dropdown_Tour {
+    font-size: 16px;
+}
+
+
+.local_1 b:first-child {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.local_1 p:hover{
+    color: #1ba0e2;
+}
+
+
+
+.Container {
+    width: 400px;
+    margin-top: 50px;
+    border: 1px solid gray;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 0px 48px -7px rgba(116, 102, 102, 0.47);
+    -webkit-box-shadow: 0px 0px 48px -7px rgba(116, 102, 102, 0.47);
+    -moz-box-shadow: 0px 0px 48px -7px rgba(116, 102, 102, 0.47);
+}
+
+.Container:hover img{
+    transform: translate(0px, 0px) scale(1.1, 1.1);
+}
+
+.tl_1 {
+    width: 80px;
+    height: 2px;
+    display: inline-block;
+    background: #eee;
+}
+
+.tl_2 {
+    display: inline-block;
+    height: 12px;
+    margin: 0 5px;
+    position: relative;
+    top: 5px;
+    width: 12px;
+    border: 1px solid #1ba0e2;
+    border-radius: 50px;
+}
+
+.Content_header {
+    text-align: center;
+}
+
+.Content {
+    margin-top: 50px;
+}
+
+/* 
+.Card_title {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 95px;
+    flex-wrap: wrap;
+} */
+
+
+/* .Card_title_2{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 95px;
+
+} */
+
+.Text {
+    margin: 0 8px;
+}
+
+.Img {
+    width: 400px;
+    overflow: hidden;
+}
+
+.Img img {
+    max-width: 100%;
+}
+
+.Content_2{
+    margin-top: 50px;
+    padding-bottom: 60px;
+    background-image: url(//bizweb.dktcdn.net/100/299/077/themes/642224/assets/sec_inbound_tour_bg.png?1615450591638);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 675.7px;
+}
+
+.Active{
+    color: #1ba0e2;
+}
+
+.Content_3, .Content_5{
+    margin-top: 50px;
+}
+
+.Content_4{
+    margin-top: 50px;
+}
+
+.ContainerCF{
+    position: relative;
+}
+
+.BgCF{
+    width: 303px;
+}
+
+.BgCF img{
+    max-width: 100%;
+}
+
+.ContainerCF b{
+    bottom: 15px;
+    color: white;
+    position: absolute;
+    left: 10px;
+    transition: transform 0.2s linear;
+}
+
+.Card_favorite{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    transition: background-color 0.6s ease;
+}
+
+.ContainerCF:hover .overlay{
+    border-bottom: 8px solid #1ba0e2;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ContainerCF:hover b{
+    transform: translate(0px, -20px);
+}
+  
+.Text_title{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    margin: 5px 0;
+}
+
+.ButtonClick{
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background: transparent;
+}
+
+.Content_5_Text_Img{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 0 100px;
+}
+
+.Content_5_Left{
+    width: 600px;
+}
+
+.Content_5_Left_Img{
+    width: 600px;
+    
+}
+
+.Content_5_Left_Img img{
+    max-width: 100%;
+}
+
+.Content_5_Right{
+    width: 600px
+}
+
+.List1_left{
+    width: 360px;
+    padding-right: 15px;
+}
+
+.List1_left img{
+    max-width: 100%;
+}
+
+.List1{
+    display: flex;
+    height: 130px;
+}
+
+.LogOut{
+    font-size: 15px;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

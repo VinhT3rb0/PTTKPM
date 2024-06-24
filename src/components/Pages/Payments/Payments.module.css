@@ -1,0 +1,33 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+}
+
+.ClickPay{
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 170px;
+    
+}
+
+.SelectedDiv2{
+    height: 50px;
+    background-color: #1ebfff !important;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.BuyTour{
+    cursor: pointer;
+    height: 40px;
+    padding: 10px 30px;
+    border: 1px solid #1c94e9a6;
+    border-radius: 8px;
+}

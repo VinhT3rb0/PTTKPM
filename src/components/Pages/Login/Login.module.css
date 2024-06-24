@@ -1,0 +1,235 @@
+.textf {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px !important;
+    color: #111111;
+    display: block !important;
+    width: 100%;
+}
+
+.container {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 16px;
+    width: 462px;
+    border-radius: 50px;
+    height: 400px !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 19px -3px rgba(129, 124, 124, 0.7);
+}
+
+.buttonL {
+    color: #FFFFFE;
+    margin-top: 10px;
+    text-align: center;
+    /* Paragraph 3/Bold */
+    height: 50px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.inputf {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+
+    width: 424px;
+    height: 56px;
+
+    background: #ffffff;
+    /* Neutral Light/3 */
+
+    border: 1px solid #cbcbcb;
+    border-radius: 8px;
+}
+
+.gridListUser {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 20px;
+}
+
+.Name {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.Email {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.Phone {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.Dob {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.Address {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.Role {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.ButtonViewProfile_Update {
+    border-radius: 8px;
+    background: var(--primary-1, #8767E1);
+    color: #F1F4F9;
+    text-align: center;
+
+    /* Paragraph 3/Medium */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+.ButtonViewProfile_Change {
+    color: var(--primary-1, #8767E1);
+    text-align: center;
+
+    /* Paragraph 3/Medium */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+.Uploadv div:first-child {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    /* height: 250px !important;
+    width: 250px !important; */
+}
+
+.ChangePassViewP {
+    padding: 0 24px;
+}
+
+/* .InputChange {
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 8px;
+} */
+
+.Add_User {
+    border-radius: 8px;
+    background: var(--primary-1, #8767E1);
+    color: #F1F4F9;
+    text-align: center;
+    height: 50px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.RowStyles {
+    /* background-color: rgb(146, 146, 238); */
+}
+
+.WordEditUser {
+    color: var(--neutral-light-2, #939393);
+    /* Paragraph 3/Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.Icon_1_EditUser {
+    color: #FF0707;
+
+    /* Paragraph 3/Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Details_View1 {
+    color: var(--neutral-light-2, #939393);
+
+    /* Paragraph 3/Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.Details_View2 {
+    color: var(--neutral-dark-1, #111);
+
+    /* Paragraph 3/Medium */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+.Details_View3 {
+    color: var(--primary-2, #805EDF);
+
+    /* Paragraph 3/Medium */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+.Container_Details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 28px;
+    grid-row-gap: 24px;
+}
+
+
+.ContainerDiv {
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url('https://img4.thuthuatphanmem.vn/uploads/2020/04/28/anh-nen-bien-song-xanh_014557180.jpg');
+
+}
